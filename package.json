@@ -1,0 +1,20 @@
+{
+  "name": "ar-gps",
+  "description": "GPS based AR.js test",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "latest"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-example",
+    "aframe-boilerplate",
+    "aframe-scene",
+    "webvr",
+    "vr"
+  ]
+}

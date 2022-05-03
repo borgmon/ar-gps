@@ -1,0 +1,16 @@
+version: "3.4"
+
+networks:
+  tailscale:
+    external: true
+    name: tailscale-relay_tailscale
+
+services:
+  ar-art:
+    container_name: ar-art
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - tailscale
