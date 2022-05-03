@@ -4,11 +4,10 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "deploy": "ghpages"
+    "deploy": "gh-pages -d ."
   },
   "devDependencies": {
-    "budo": "^7.0.0",
-    "ghpages": "0.0.3"
+    "gh-pages": "latest"
   },
   "keywords": [
     "aframe",
