@@ -1,5 +1,4 @@
-version: "3.4"
-
+version: "3.8"
 networks:
   tailscale:
     external: true
@@ -8,9 +7,9 @@ networks:
 services:
   ar-art:
     container_name: ar-art
-    restart: unless-stopped
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./Dockerfile
+    restart: unless-stopped
     networks:
       - tailscale
