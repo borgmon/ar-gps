@@ -18,7 +18,7 @@
     <button id="video-permission-button">Allow VR video</button>
   </div>
 
-  <a-scene renderer="logarithmicDepthBuffer: true;"
+  <a-scene fog="type: linear; near:12; far:20; color: #dbdedb;" renderer="logarithmicDepthBuffer: true;"
     vr-mode-ui="enabled: false;" embedded cursor="rayOrigin: mouse" arjs="sourceType: webcam; debugUIEnabled: false">
 
     <a-assets>
