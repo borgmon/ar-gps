@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
             videoEl.setAttribute("gps-entity-place", buildGPSEntity(position.coords.latitude, position.coords.longitude))
         }
     }
-    getLocation()
+    // getLocation()
 })
 
 function buildGPSEntity(lat, long) {
